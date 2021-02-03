@@ -1,0 +1,20 @@
+name: Game Engine Example
+version: 0.1.0
+
+authors:
+  - Jason DeLeon <jason@progmem.space>
+
+targets:
+  game-example:
+    main: src/game.cr
+  extractor:
+    main: src/extract.cr
+
+crystal: 0.36.1
+
+dependencies:
+  crsfml:
+    github: oprypin/crsfml
+    version: ~> 2.5.2
+
+license: MIT
