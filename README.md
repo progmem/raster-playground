@@ -7,3 +7,7 @@ One of my major influences growing up was the **Sega Genesis** (Megadrive), and 
 When rendering, images were drawn line by line, starting with the pixel data on the left and moving to the right. Due to how displays drew, there was a brief period of time, known as the **horizontal blanking period**, where the display would prepare to draw the next line. This time could be used to make small adjustments to the graphics data being used to compose the image, which allowed for fancy effects like **parallax scrolling** and **water effects** by adjusting the postion of layers and the palette used to draw them.
 
 This repository is a work in progress to develop a renderer in the same vain. This may not be the most optimal renderer in the world, but it's my take on some of the same techniques and should allow me to (eventually) develop a game.
+
+# Please don't use any of this yet!
+
+This project as a whole is *far from done*, and while I've worked on solving certain problems it is most certainly suboptimal. I'm doing all of this in my [new favorite language](https://crystal-lang.org) and while I'm a Ruby dev that originally cut my teeth on C, I'm still getting used to the code conventions of Crystal.
